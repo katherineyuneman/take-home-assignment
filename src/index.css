@@ -24,10 +24,9 @@ body {
 	line-height: inherit;
 	background-color: black;
 	color: white;
-	border-radius: 8px;
+	border-radius: 1rem;
 	border: 3px solid;
-	font-size: 20px;
-	padding: 15px 32px;
+	padding: 1rem 2rem;
 	font-weight: bold;
 }
 
@@ -37,10 +36,10 @@ body {
 	font-family: inherit;
 	background-color: white;
 	color: black;
-	border-radius: 8px;
+	border-radius: 1rem;
+	font-size: 2rem;
 	border: 3px solid;
-	font-size: 16px;
-	padding: 15px 32px;
+	padding: 1rem 2rem;
 }
 
 .backButton {
@@ -50,17 +49,17 @@ body {
 	line-height: inherit;
 	background-color: white;
 	color: black;
-	border-radius: 8px;
+	border-radius: 1rem;
 	border: 3px solid;
 	font-size: 16px;
-	padding: 15px 32px;
+	padding: 1rem 2rem;
 }
 
 .list {
 	border: none;
 	color: black;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: bold;
 	text-decoration-line: underline;
 }
