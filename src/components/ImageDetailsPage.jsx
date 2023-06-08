@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 
 const ImageDetailsPage = ({ artworkSelected, handleClose }) => {
-	console.log(artworkSelected.thumbnail.alt_text);
 	return (
 		<Fragment>
 			<div className="parent">

@@ -23,7 +23,6 @@ export function App() {
 	}
 
 	const handleOpen = (result) => {
-		console.log(result);
 		setShowArtwork(true);
 		setArtworkSelected(result);
 	};
@@ -49,15 +48,15 @@ export function App() {
 					/>
 					{searchResults.map((result) => {
 						return (
-							<ul>
-								<button
-									key={result.image_id}
-									className="list"
-									onClick={() => handleOpen(result)}
-								>
-									<li>
-										{result.title} by {result.artist_title}
-									</li>
+							<ul key={result.image_id}>
+								<button className="list" onClick={() => handleOpen(result)}>
+									{result.artist_title ? (
+										<li>
+											{result.title} {result.artist_title}
+										</li>
+									) : (
+										<li>{result.title}</li>
+									)}
 								</button>
 							</ul>
 						);

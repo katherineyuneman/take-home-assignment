@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	background-color: white;
+	color: black;
 }
 
 html {
@@ -16,11 +18,61 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-button,
-input {
+.searchButton {
 	font-family: inherit;
 	font-size: 100%;
 	line-height: inherit;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	border: 3px solid;
+	font-size: 20px;
+	padding: 15px 32px;
+	font-weight: bold;
+}
+
+.input {
+	text-align: center;
+	font-weight: bold;
+	font-family: inherit;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	border: 3px solid;
+	font-size: 16px;
+	padding: 15px 32px;
+}
+
+.backButton {
+	text-align: center;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: inherit;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	border: 3px solid;
+	font-size: 16px;
+	padding: 15px 32px;
+}
+
+.list {
+	border: none;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.parent {
+	margin: auto;
+	white-space: nowrap;
+}
+
+.detail {
+	display: inline-block;
+	padding: 10px;
 }
 
 pre,
